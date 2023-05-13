@@ -1,8 +1,9 @@
 ﻿using System.Text.Json;
 
+
 namespace GetWeather{
     internal class Program {
-        //You need a weatherapi.com account and a free api key in order to use this tool.
+        //You need a weatherapi.com account and a api key in order to use this tool.
         const string API_KEY = "YOUR_API_KEY_HERE";
 
         public static string GetReqURL(string? location) {
